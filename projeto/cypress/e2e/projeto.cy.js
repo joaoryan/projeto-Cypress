@@ -1,5 +1,5 @@
 /// <reference types = "cypress"/>
-describe("Criando cenário de teste para o site IMDb", () => {
+describe("Criando cenário de teste para o site", () => {
 
   it("Caso de teste: Preenchendo as informações para registrar a conta com informações válidas", () => {
     cy.visit("https://www.imdb.com/")
